@@ -1,0 +1,11 @@
+This is the github repository to be used by Noah Hill and Jay Zebryk, to
+develop a program which automates acquisition and logging of RF Range Scan
+data. The program will be written in Python and deployed on a Raspberry Pi.
+Data will be logged to a CSV file within the Raspberry Pi, and measurements
+will be taken with the ADS1115 16-bit ADC.
+
+The first iteration of this program explores simple connection to the ADS1115
+using I2C protocol, reading values from all four channels, and printing data to
+a CSV file. This python script is named helloworld.py. The
+Adafruit_Python_ADS1x15 folder contains examples and documentation provided by
+Adafruit.
